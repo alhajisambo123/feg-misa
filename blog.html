@@ -1,0 +1,433 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>FEG-MISA | Federation of Ghana Medical Imaging Students’ Associations</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Federation of Ghana Medical Imaging Students’ Associations, FEGMISA, Radiography Students Ghana" name="keywords">
+    <meta content="Official website of the Federation of Ghana Medical Imaging Students’ Associations (FEG-MISA). Empowering the next generation of radiographers in Ghana." name="description">
+
+    <!-- Favicon -->
+    <link href="img/fegmisa.jpeg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background: #f7f9fc;
+            color: #333;
+        }
+
+        /* HEADER */
+        .topbar {
+            background: #0a3d62;
+            color: #fff;
+            padding: 10px 0;
+        }
+        .topbar .info-box i {
+            color: #f1c40f;
+           
+            margin-right: 10px;
+        }
+        .date,
+.blog-card .meta .author {
+    display: flex;
+    align-items: center;
+}
+
+
+#blogCarousel img {
+ 
+    height: 380px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.author {
+    font-weight: 500;
+}
+
+        /* NAVBAR */
+        .navbar {
+            background: #ffffff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+        .navbar .nav-link {
+            font-weight: 500;
+            padding: 12px 20px;
+        }
+        .navbar .nav-link.active {
+            color: #0a3d62 !important;
+        }
+
+        /* PAGE HEADER */
+        .page-header {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/header.jpg') center/cover;
+            padding: 100px 0;
+            text-align: center;
+            color: #fff;
+        }
+
+        /* BLOG CARDS */
+        .blog-card {
+            border: none;
+            transition: 0.3s;
+            border-radius: 12px;
+            overflow: hidden;
+            background: #fff;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+        }
+        .blog-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 8px 28px rgba(0, 0, 0, 0.15);
+        }
+        .blog-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .blog-card .date {
+            color: #0a3d62;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        /* SIDEBAR */
+        .sidebar-box {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+        .sidebar-box h4 {
+            border-left: 4px solid #0a3d62;
+            padding-left: 10px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .tag-btn {
+            border-radius: 30px;
+            padding: 6px 16px;
+            margin: 4px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #0a3d62;
+            color: #fff;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center py-4 px-xl-5">
+
+            <div class="d-none d-lg-block">
+                <img src="img/fegmisa.jpeg" width="60" height="60" class="rounded-circle me-3" alt="FEGMISA Logo">
+                FEG-MISA
+            </div>
+
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-map-marker-alt text-royal mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Our Office</h6>
+                        <small>123 Street, University of Ghana, Ghana</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-envelope text-royal mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
+                        <small>fegmisaoffice@gmail.com</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-phone text-royal mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
+                        <small>+233 54 703 8272</small>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid">
+        <div class="row border-top px-xl-5">
+
+            <div class="col-lg-3 d-none d-lg-block"></div>
+
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+
+                    <!-- Navbar Toggler -->
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Navbar Links -->
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav py-0">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="article.html" class="nav-item nav-link">Articles</a>
+                            <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+
+        </div>
+    </div>
+    <!-- Navbar End
+
+    <!-- PAGE HEADER -->
+    <!-- PAGE HEADER -->
+<div class="page-header text-center mb-4">
+    <h2 class="display-4 font-weight-bold">FEG-MISA Blog</h2>
+    <p>Latest news, events, and updates in Medical Imaging</p>
+</div>
+
+
+ 
+
+    <!-- BLOG SECTION -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- BLOG LIST -->
+            <div class="col-lg-8">
+                <div class="row">
+                    <!-- BLOG ITEM -->
+                   <div class="col-md-6 mb-4">
+    <div class="blog-card"><a href="blog1.html" class="text-decoration-none text-dark"></a>
+        <img src="img/blog-2.jpg" alt="Blog image" />
+        <div class="p-3">
+            <h5 class="font-weight-bold">Vivamus aliquet urna ut sapien facilisis, sed bibendum velit.</h5>
+
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="date">Feb 07, 2025</div>
+                <div class="author">Nathaniel Sebbi</div>
+            </div>
+ </a>
+        </div>   
+
+    </div>
+</div>
+
+
+   <div class="col-md-6 mb-4">
+    <div class="blog-card">
+        <img src="img/blog-2.jpg" alt="Blog image" />
+        <div class="p-3">
+            <h5 class="font-weight-bold">Vivamus aliquet urna ut sapien facilisis, sed bibendum velit.</h5>
+
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="date">Feb 07, 2025</div>
+                <div class="author">Nathaniel Sebbi</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-6 mb-4"> <a href="blog1.html" class="text-decoration-none text-dark">
+    <div class="blog-card">
+        <img src="img/blog-2.jpg" alt="Blog image" />
+        <div class="p-3">
+            <h5 class="font-weight-bold">Vivamus aliquet urna ut sapien facilisis, sed bibendum velit.</h5>
+
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="date">Feb 07, 2025</div>
+                <div class="author">Nathaniel Sebbi</div>
+            </div>
+
+        </div>
+    </div>
+</a>
+</div>
+
+
+                    <div class="col-md-6 mb-4">
+                        <a href="blog1.html" class="text-decoration-none text-dark"></a>
+                        <div class="blog-card">
+                            <img src="img/blog-1.jpg" alt="Blog image" />
+                            <div class="p-3">
+                                <h5 class="font-weight-bold">Curabitur ornare ligula sed eros varius, sit amet luctus urna.</h5>
+                                <div class="date">Jan 01, 2050</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </div>
+
+            <!-- SIDEBAR -->
+            <div class="col-lg-4">
+                <!-- Recent Posts -->
+                <div class="sidebar-box">
+                    <h4>Recent Posts</h4>
+                    <div class="d-flex mb-3">
+                        <img src="img/blog-80x80.jpg" class="rounded" />
+                        <div class="pl-3">
+                            <h6 class="m-0">Nunc non urna vel nisi bibendum mattis.</h6>
+                            <small>Jan 01, 2050</small>  <small>Nathaniel Sebbi</small>
+                        </div> 
+                    </div>
+
+                    <div class="d-flex mb-3">
+                        <img src="img/blog-80x80.jpg" class="rounded" />
+                        <div class="pl-3">
+                            <h6 class="m-0">Etiam suscipit sapien in metus malesuada.</h6>
+                            <small>Jan 01, 2050</small>                             <small>Nathaniel Sebbi</small>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tags -->
+                <div class="sidebar-box">
+                    <h4>Tags</h4>
+                                        <button class="btn btn-outline-primary tag-btn">Sonography</button>
+
+                    <button class="btn btn-outline-primary tag-btn">Diagnostic Radiography</button>
+                    <button class="btn btn-outline-primary tag-btn">Nuclear Medicine</button>
+                    <button class="btn btn-outline-primary tag-btn">Therapy Radiography</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    
+
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-dark text-light pt-5 mt-5">
+    <div class="container">
+
+        <div class="row g-4">
+
+            <!-- ABOUT FEG-MISA -->
+            <div class="col-lg-4 col-md-6">
+                <img src="img/logo.png" alt="FEG-MISA Logo" width="140" class="mb-3">
+                <p class="small text-light">
+                    The <strong>Federation of Ghana Medical Imaging Students’ Associations (FEG-MISA)</strong> 
+                    is the national umbrella body representing all Medical Imaging and Radiography students 
+                    across Ghana. We are committed to promoting academic excellence, leadership development, 
+                    research, and professional unity among future imaging professionals.
+                </p>
+            </div>
+
+            <!-- ACTIVITIES -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-primary mb-4">Our Activities</h5>
+                <ul class="list-unstyled small">
+                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>National Conferences</li>
+                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>Workshops & Seminars</li>
+                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>Academic Competitions</li>
+                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>Outreach Programs</li>
+                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>Research Development</li>
+                </ul>
+            </div>
+
+            <!-- CONTACT & SOCIAL -->
+            <div class="col-lg-4 col-md-6">
+                <h5 class="text-primary mb-4">Contact & Follow Us</h5>
+
+                <p class="small mb-2">
+                    <i class="fa fa-map-marker-alt me-2 text-primary"></i>
+                    Accra, Ghana
+                </p>
+
+                <p class="small mb-2">
+                    <i class="fa fa-phone me-2 text-primary"></i>
+                    +233 54 703 8272
+                </p>
+
+                <p class="small mb-3">
+                    <i class="fa fa-envelope me-2 text-primary"></i>
+                    fegmisaoffice@gmail.com
+                </p>
+
+                <!-- Social Links -->
+                <div class="d-flex gap-3">
+                    <a href="#" class="text-light fs-5">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-light fs-5">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-light fs-5">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <hr class="border-secondary my-4">
+
+        <!-- COPYRIGHT -->
+        <div class="text-center pb-3">
+            <small>
+                © 2025 <strong>FEG-MISA</strong>. All Rights Reserved.
+            </small>
+        </div>
+
+    </div>
+</footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
