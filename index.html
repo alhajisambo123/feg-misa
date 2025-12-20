@@ -1,509 +1,271 @@
-<!-- <!-- <!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>FEG-MISA | Federation of Ghana Medical Imaging Students’ Associations</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Federation of Ghana Medical Imaging Students’ Associations, FEGMISA, Radiography Students Ghana" name="keywords">
-    <meta content="Official website of the Federation of Ghana Medical Imaging Students’ Associations (FEG-MISA). Empowering the next generation of radiographers in Ghana." name="description">
+<meta charset="utf-8">
+<title>FEG-MISA | Federation of Ghana Medical Imaging Students’ Associations</title>
 
-    <!-- Favicon -->
-    <link href="img/fegmisa.jpeg" rel="icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Official website of the Federation of Ghana Medical Imaging Students’ Associations (FEG-MISA).">
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Favicon -->
+<link rel="icon" href="img/fegmisa.jpeg">
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-   <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-        }
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 
-        /* HERO CAROUSEL FIX */
-        #header-carousel .carousel-caption {
-            background: none !important;
-            box-shadow: none !important;
-            inset: 0;
-            display: flex;
-            align-items: center;
-            text-align: left;
-        }
-         footer {
-            background: #0a3d62;
-            color: #fff;
-            margin-top: 40px ;
-            width: 1005;
-        }
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+}
 
-    </style>
+/* HERO */
+.carousel-caption {
+    inset: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(0,0,0,0.45);
+}
+
+.carousel-caption h1 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+}
+
+.team img {
+    height: 280px;
+    object-fit: cover;
+}
+
+footer {
+    background: #0a3d62;
+    color: #fff;
+}
+</style>
 </head>
 
 <body>
 
-    <!-- Topbar Start -->
-    <div class="container-fluid d-none d-lg-block">
-        <div class="row align-items-center py-4 px-xl-5">
-
-            <div class="d-none d-lg-block">
-                <img src="img/fegmisa.jpeg" width="60" height="60" class="rounded-circle me-3" alt="FEGMISA Logo">
-                FEG-MISA
-            </div>
-
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-map-marker-alt text-royal mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Our Office</h6>
-                        <small>123 Street, University of Ghana, Ghana</small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-envelope text-royal mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
-                        <small>fegmisaoffice@gmail.com</small>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 text-right">
-                <div class="d-inline-flex align-items-center">
-                    <i class="fa fa-2x fa-phone text-royal mr-3"></i>
-                    <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
-                        <small>+233 54 703 8272</small>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- Topbar End -->
-
-
-    <!-- Navbar Start -->
-    <div class="container-fluid">
-        <div class="row border-top px-xl-5">
-
-            <div class="col-lg-3 d-none d-lg-block"></div>
-
-            <div class="col-lg-9">
-                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
-
-                    <!-- Navbar Toggler -->
-                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <!-- Navbar Links -->
-                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav py-0">
-                            <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="about.html" class="nav-item nav-link">About</a>
-                            <a href="article.html" class="nav-item nav-link">Articles</a>
-                            <a href="blog.html" class="nav-item nav-link">Blog</a>
-                        </div>
-                    </div>
-
-                </nav>
-            </div>
-
-        </div>
-    </div>
-    <!-- Navbar End -->
-
-
-    <!-- HERO CAROUSEL -->
-    <div id="header-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-        <div class="carousel-inner">
-
-            <!-- Slide 1 -->
-            <div class="carousel-item active">
-                <img src="img/carousel-1.jpg" class="w-100" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <h1 class="display-4 text-white mb-4">Uniting Ghana’s Medical Imaging Students</h1>
-                        <p class="fs-5 text-white mb-5">Advancing Radiography Excellence Nationwide</p>
-                        <a href="#" class="btn btn-primary py-md-2 px-md-4">Learn More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 2 -->
-            <div class="carousel-item">
-                <img src="img/carousel-2.jpg" class="w-100" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <h1 class="display-4 text-white mb-4">Building the Future of Radiographers</h1>
-                        <p class="fs-5 text-white mb-5">Empowering Students Across All Institutions</p>
-                        <a href="#" class="btn btn-primary py-md-2 px-md-4">Discover More</a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Slide 3 -->
-            <div class="carousel-item">
-                <img src="img/carousel-3.jpg" class="w-100" alt="Image">
-                <div class="carousel-caption">
-                    <div class="container">
-                        <h1 class="display-4 text-white mb-4">Federating Skills, Knowledge & Innovation</h1>
-                        <p class="fs-5 text-white mb-5">Shaping the Next Generation of Imaging Professionals</p>
-                        <a href="#" class="btn btn-primary py-md-2 px-md-4">Join Us</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-
-    <!-- ABOUT US -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="row align-items-center">
-
-                <!-- About Carousel -->
-                <div class="col-lg-5">
-                    <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-                        <div class="carousel-inner">
-
-                            <div class="carousel-item active">
-                                <img src="img/WhatsApp Image 2025-11-01 at 5.21.18 PM.jpeg" class="img-fluid rounded w-100" alt="">
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src="img/fegmisa.jpeg" class="img-fluid rounded w-100" alt="">
-                            </div>
-
-                            <div class="carousel-item">
-                                <img src="img/quiz.jpg" class="img-fluid rounded w-100" alt="">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- About Text -->
-                <div class="col-lg-7">
-                    <div class="mb-4">
-                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About FEG-MISA</h5>
-                        <h1>Strengthening Medical Imaging Education in Ghana</h1>
-                    </div>
-
-                    <p>
-                        The Federation of Ghana Medical Imaging Students’ Associations (FEG-MISA) is the national coordinating body for all Medical Imaging/Radiography student associations across Ghana. Our mission is to unite, empower, and develop the next generation of imaging professionals.
-                    </p>
-
-                    <p>
-                        Through conferences, workshops, outreach programs, research development and academic competitions, we foster excellence, leadership, and collaboration among students from all medical imaging institutions nationwide.
-                    </p>
-
-                    <a href="about" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Read More About FEG-MISA</a>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- ARTICLES SECTION -->
-<div class="container-fluid py-5">
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
     <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="img/fegmisa.jpeg" width="40" class="rounded-circle me-2">
+            <strong>FEG-MISA</strong>
+        </a>
 
-        <div class="text-center mb-5">
-            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Articles</h5>
-            <h1>Educational Articles by Students Across our varous campuses </h1>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Articles</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO CAROUSEL -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="img/carousel-1.jpg" class="w-100" alt="">
+            <div class="carousel-caption text-start">
+                <div class="container">
+                    <h1 class="text-white fw-bold">Uniting Ghana’s Medical Imaging Students</h1>
+                    <p class="text-white">Advancing Radiography Excellence Nationwide</p>
+                    <a class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
         </div>
 
-      
-    <!-- ARTICLES SECTION -->
- <div class="container-fluid py-5 bg-light">
-        <div class="container">
-<div class="row ">
-
-            <!-- ARTICLE CARD 1 -->
-            <div class="col-lg-4 col-md-6 mb-4 ">
-                <div class="rounded overflow-hidden shadow-sm article-card">
-                    <img class="img-fluid" src="img/cat-1.jpg" alt="">
-                    <div class="bg-light p-4">
-                        <div class="d-flex justify-content-between mb-3">
-                            <small class="text-primary">
-                                <i class="fa fa-x-ray mr-2"></i>Radiography
-                            </small>
-                            <small class="text-muted">Jan 05, 2025</small>
-                        </div>
-
-                        <a class="h5 d-block mb-3" href="">
-                            Understanding Radiation Protection Practices in Ghanaian Imaging Centers
-                        </a>
-
-                        <div class="border-top mt-4 pt-3 d-flex justify-content-between">
-                            <small class="text-muted"><i class="fa fa-user mr-2"></i>FEG-MISA Editorial Team</small>
-                            <a href="" class="text-primary font-weight-bold small">Read More</a>
-                        </div>
-                    </div>
+        <div class="carousel-item">
+            <img src="img/carousel-2.jpg" class="w-100" alt="">
+            <div class="carousel-caption text-start">
+                <div class="container">
+                    <h1 class="text-white fw-bold">Building the Future of Radiographers</h1>
+                    <p class="text-white">Empowering Students Across Ghana</p>
                 </div>
             </div>
-
-            <!-- ARTICLE CARD 2 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="rounded overflow-hidden shadow-sm article-card">
-                    <img class="img-fluid" src="img/cat-1.jpg" alt="">
-                    <div class="bg-light p-4">
-                        <div class="d-flex justify-content-between mb-3">
-                            <small class="text-primary">
-                                <i class="fa fa-stethoscope mr-2"></i>Ultrasound
-                            </small>
-                            <small class="text-muted">Jan 12, 2025</small>
-                        </div>
-
-                        <a class="h5 d-block mb-3" href="">
-                            Doppler Ultrasound: Key Indices Every Student Radiographer Should Know
-                        </a>
-
-                        <div class="border-top mt-4 pt-3 d-flex justify-content-between">
-                            <small class="text-muted"><i class="fa fa-user mr-2"></i>Josephine Adu</small>
-                            <a href="" class="text-primary font-weight-bold small">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ARTICLE CARD 3 -->
-            <div class="col-lg-4 col-md-6 mb-4">
-                <div class="rounded overflow-hidden shadow-sm article-card">
-                    <img class="img-fluid" src="img/carousel-3.jpg" alt="">
-                    <div class="bg-light p-4">
-                        <div class="d-flex justify-content-between mb-3">
-                            <small class="text-primary">
-                                <i class="fa fa-brain mr-2"></i>MRI
-                            </small>
-                            <small class="text-muted">Jan 22, 2025</small>
-                        </div>
-
-                        <a class="h5 d-block mb-3" href="">
-                            MRI Safety Levels: A Detailed Guide for Medical Imaging Students
-                        </a>
-
-                        <div class="border-top mt-4 pt-3 d-flex justify-content-between">
-                            <small class="text-muted"><i class="fa fa-user mr-2"></i>David Mensah</small>
-                            <a href="" class="text-primary font-weight-bold small">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
-
-     </div>
+        </div>
 
     </div>
 </div>
 
-
-
-
-
-
-    <!-- EXECUTIVES -->
-    <div class="container-fluid py-5 bg-light">
-        <div class="container text-center">
-
-            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Our Leadership</h5>
-            <h1 class="mb-5">Meet Our National Executives</h1>
-
-            <div class="row g-4">
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <img src="img/team-1.jpg" class="img-fluid rounded" alt="">
-                        <h5 class="mt-3">Ahmed Hussain Sambo</h5>
-                        <p class="text-primary mb-0">National President</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <img src="img/veep.jpeg" class="img-fluid rounded" alt="">
-                        <h5 class="mt-3">Nathaniel Sebbi</h5>
-                        <p class="text-primary mb-0">Vice President</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <img src="img/team-3.jpg" class="img-fluid rounded" alt="">
-                        <h5 class="mt-3">Executive Name</h5>
-                        <p class="text-primary mb-0">General Secretary</p>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="team-item">
-                        <img src="img/team-4.jpg" class="img-fluid rounded" alt="">
-                        <h5 class="mt-3">Executive Name</h5>
-                        <p class="text-primary mb-0">Public Relations Officer</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-
-    <!-- TESTIMONIALS -->
-    <div class="container-fluid py-5">
-        <div class="container text-center">
-
-            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Testimonials</h5>
-            <h1 class="mb-5">What Students Say About FEG-MISA</h1>
-
-            <div class="row g-4">
-
-                <div class="col-lg-4">
-                    <div class="p-4 border rounded">
-                        <p>“FEG-MISA has connected me with medical imaging students across Ghana. Their events help build confidence and practical radiography skills.”</p>
-                        <h6 class="mt-3">Kwame Adjei,UDS</h6>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="p-4 border rounded">
-                        <p>“Their academic competitions and seminars have improved my diagnostic imaging knowledge and teamwork abilities.”</p>
-                        <h6 class="mt-3">Shadrack Yeboah, UCC</h6>
-                    </div>
-                </div>
-
-                <div class="col-lg-4">
-                    <div class="p-4 border rounded">
-                        <p>“FEG-MISA gives students opportunities for leadership, outreach and professional growth. I’ve learned so much.”</p>
-                        <h6 class="mt-3">Fati Abdul, UG</h6>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-
-
-    <!-- BLOG / NEWS -->
-  <!-- BLOG / NEWS -->
-  <!-- FOOTER START -->
-<footer class="container-fluid bg-dark text-light pt-5 mt-5">
+<!-- ABOUT -->
+<section class="py-5">
     <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-5">
+                <img src="img/fegmisa.jpeg" class="img-fluid rounded">
+            </div>
+
+            <div class="col-lg-7">
+                <h6 class="text-primary text-uppercase">About FEG-MISA</h6>
+                <h2 class="fw-bold">Strengthening Medical Imaging Education</h2>
+                <p>
+                    The Federation of Ghana Medical Imaging Students’ Associations (FEG-MISA)
+                    is the national umbrella body representing all Medical Imaging students
+                    across Ghana.
+                </p>
+                <a class="btn btn-primary">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ARTICLES -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h6 class="text-primary text-uppercase">Articles</h6>
+            <h2 class="fw-bold">Educational Articles</h2>
+        </div>
 
         <div class="row g-4">
-
-            <!-- ABOUT FEG-MISA -->
-            <div class="col-lg-4 col-md-6">
-                <img src="img/logo.png" alt="FEG-MISA Logo" width="140" class="mb-3">
-                <p class="small text-light">
-                    The <strong>Federation of Ghana Medical Imaging Students’ Associations (FEG-MISA)</strong> 
-                    is the national umbrella body representing all Medical Imaging and Radiography students 
-                    across Ghana. We are committed to promoting academic excellence, leadership development, 
-                    research, and professional unity among future imaging professionals.
-                </p>
-            </div>
-
-            <!-- ACTIVITIES -->
-            <div class="col-lg-4 col-md-6">
-                <h5 class="text-primary mb-4">Our Activities</h5>
-                <ul class="list-unstyled small">
-                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>National Conferences</li>
-                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>Workshops & Seminars</li>
-                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>Academic Competitions</li>
-                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>Outreach Programs</li>
-                    <li class="mb-2"><i class="fa fa-angle-right me-2 text-primary"></i>Research Development</li>
-                </ul>
-            </div>
-
-            <!-- CONTACT & SOCIAL -->
-            <div class="col-lg-4 col-md-6">
-                <h5 class="text-primary mb-4">Contact & Follow Us</h5>
-
-                <p class="small mb-2">
-                    <i class="fa fa-map-marker-alt me-2 text-primary"></i>
-                    Accra, Ghana
-                </p>
-
-                <p class="small mb-2">
-                    <i class="fa fa-phone me-2 text-primary"></i>
-                    +233 54 703 8272
-                </p>
-
-                <p class="small mb-3">
-                    <i class="fa fa-envelope me-2 text-primary"></i>
-                    fegmisaoffice@gmail.com
-                </p>
-
-                <!-- Social Links -->
-                <div class="d-flex gap-3">
-                    <a href="#" class="text-light fs-5">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="text-light fs-5">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#" class="text-light fs-5">
-                        <i class="fab fa-twitter"></i>
-                    </a>
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/cat-1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Radiation Protection Practices</h5>
+                        <p class="small text-muted">Jan 05, 2025</p>
+                        <a class="btn btn-sm btn-outline-primary">Read More</a>
+                    </div>
                 </div>
             </div>
 
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/cat-1.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Doppler Ultrasound Indices</h5>
+                        <p class="small text-muted">Jan 12, 2025</p>
+                        <a class="btn btn-sm btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/carousel-3.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">MRI Safety Levels</h5>
+                        <p class="small text-muted">Jan 22, 2025</p>
+                        <a class="btn btn-sm btn-outline-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- EXECUTIVES -->
+<section class="py-5">
+    <div class="container text-center">
+        <h6 class="text-primary text-uppercase">Leadership</h6>
+        <h2 class="fw-bold mb-5">National Executives</h2>
+
+        <div class="row g-4 team">
+            <div class="col-md-6 col-lg-3">
+                <img src="img/team-1.jpg" class="img-fluid rounded">
+                <h6 class="mt-3">Ahmed Hussain Sambo</h6>
+                <p class="text-primary">National President</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <img src="img/veep.jpeg" class="img-fluid rounded">
+                <h6 class="mt-3">Nathaniel Sebbi</h6>
+                <p class="text-primary">Vice President</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <img src="img/team-3.jpg" class="img-fluid rounded">
+                <h6 class="mt-3">Executive Name</h6>
+                <p class="text-primary">General Secretary</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <img src="img/team-4.jpg" class="img-fluid rounded">
+                <h6 class="mt-3">Executive Name</h6>
+                <p class="text-primary">PRO</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="py-5 bg-light">
+    <div class="container text-center">
+        <h6 class="text-primary text-uppercase">Testimonials</h6>
+        <h2 class="fw-bold mb-5">What Students Say</h2>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="p-4 border rounded bg-white">
+                    <p>FEG-MISA has connected students nationwide.</p>
+                    <strong>Kwame Adjei – UDS</strong>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-4 border rounded bg-white">
+                    <p>The seminars improved my imaging knowledge.</p>
+                    <strong>Shadrack Yeboah – UCC</strong>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="p-4 border rounded bg-white">
+                    <p>Leadership opportunities are excellent.</p>
+                    <strong>Fati Abdul – UG</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="pt-5">
+    <div class="container">
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <h5>FEG-MISA</h5>
+                <p class="small">
+                    National umbrella body for Medical Imaging students in Ghana.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Contact</h5>
+                <p class="small">Accra, Ghana</p>
+                <p class="small">+233 54 703 8272</p>
+                <p class="small">fegmisaoffice@gmail.com</p>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Follow Us</h5>
+                <a class="text-white me-3"><i class="fab fa-facebook"></i></a>
+                <a class="text-white me-3"><i class="fab fa-instagram"></i></a>
+                <a class="text-white"><i class="fab fa-twitter"></i></a>
+            </div>
+
         </div>
 
-        <hr class="border-secondary my-4">
-
-        <!-- COPYRIGHT -->
-        <div class="text-center pb-3">
-            <small>
-                © 2025 <strong>FEG-MISA</strong>. All Rights Reserved.
-            </small>
-        </div>
-
+        <hr class="border-light mt-4">
+        <p class="text-center small mb-0">© 2025 FEG-MISA. All Rights Reserved.</p>
     </div>
 </footer>
-<!-- FOOTER END -->
 
-<!-- 
-    <!-- FOOTER -->
-    
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
-</html> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- -->
+</html>
